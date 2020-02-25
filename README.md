@@ -37,7 +37,7 @@ This project describes the methodology and procedure for one SKU whose actual na
 After data cleaning and features enginearing build a several ensembling models using the best simple classifiers of each type.
 ## Scope of work
 * [01.Data mining](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/01.%20Data%20Mining)
-* 02.Data preprocessing - stage 1
+* [02.Data preprocessing - stage 1](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/02.Data%20preprocessing%20-%20stage%201)
 
 ## Final results
 
