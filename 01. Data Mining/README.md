@@ -12,4 +12,16 @@
 
 * WEEKLY_INTERNAL_SELL_OUT - table contains information about the sum of sales units to the customer collected from sales points in the S4U system. Aggregation for weeks. Source data transformed, which are described in aaaa. 
 
-* MONTHLY_INTERNAL_SELL_OUT - table contains information about the sum of sales units to the customer collected from sales points in the S4U system. Aggregation for months. Source data transformed, which are described in aaaa.
+* MONTHLY_INTERNAL_SELL_OUT - table contains information about the sum of sales units to the customer collected from sales points in the S4U system. Aggregation for months. Source data transformed (details in aaa).
+
+# Model assumptions:
+* ISO 8601 leap week calendar system
+* Data date scope : 2018-10-01 - 2019-12-29
+* Observation consists of sum of unit sales from all clients aggregated to weeks
+* The umber of all observations available - 65
+    * training set - 56 observations
+    * test set - 9 observations
+    
+    
+# Data description
+
