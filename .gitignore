@@ -2,6 +2,7 @@
 
 /SQL_CONNECTION.ipynb
 *.ipnyb
-01. Data Mining/.ipynb_checkpoints
-02. 01. Data Mining/.ipynb_checkpoints
+/01. Data Mining/.ipynb_checkpoints
+/02. 01. Data Mining/.ipynb_checkpoints
+/02. 01. Data Mining/model_Panel_Check.sql
 

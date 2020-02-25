@@ -22,6 +22,57 @@
     * training set - 56 observations
     * test set - 9 observations
     
+# Internal Data description & conclusions:
+
+Data comes from customer transactional systems. Understanding database rules and changes to identifiers is an extremely important element.
+
+The assumption that individual customer IDs are permanent should be rejected.
+The only common feature describing a single point of sale is the address, however, there are duplicates too.
+
+An important element in the selection of clients for the research panel is:
+  * obligatory value 1 in the 'Active' field of the customer dimension table 
+  * examine the availability of data during the period considered.
+  
+  SQL script
+  
+```
+    SELECT 
+            apteka
+    FROM SOFT4U.PSDT_WIDOKI.dbo.synchStanAktualizacji 
+    where aktywna=1
+    AND SprzedazMin<='2018-10-01' 
+    AND SprzedazMax>='2020-02-19'
+    GROUP BY apteka
+```
+
+* To maintain the usefulness of the model in the long term - an important element of customer selection is verified internal knowledge about maintaining reporting continuity. 
+    * Based on this analysis, **82** were rejected from the database
+
+* The data shows a delay in synchronizing some clients to the database. As recommended by the software owner, the data achieve high convergence within +3 business days from the end of the analyzed period.
     
-# Data description
+    
+* On the day the clients were defined, **1938** unique clients entered the research panel.
+
+* After completing the above steps, a dataset was created **PHARMACIES_PANEL**
+
+```
+PHARMACIES_PANEL = pd.read_sql_query(
+'''SELECT 
+        [apteka]
+		,[nazwa]
+    FROM [STAGE_S4U].[model022020].[PHARMACIES_PANEL]
+ ''', conn)
+
+```
+
+* In order to verify the current data scope availability  for pharmacies, a sql script was created in the panel: model_Panel_Chek.sql *** content available only in local repository ***
+
+# Product qualification for models
+As mentioned earlier, each SKU requires a separate model to be built.
+But to answer the question of which products qualify for research we will do the following analysis.
+
+# correlation
+# ND Stock
+#
+
 
