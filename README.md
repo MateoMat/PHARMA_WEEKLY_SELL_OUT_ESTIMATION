@@ -2,9 +2,26 @@
 
 
 ## Overview
+The volume of sales to the consumer should be the basis for strategic analyzes of sales-based organizations.
+It is using in many areas such as sales,marketing, finance, production.
+
+
+Demand results directly affect the next links in the distribution chain.
+
+
+Short and long-term product strategies are based on achieving a specific result in monthly data.
+
+It is a strong business need for weekly data monitoring.
+This knowledge is useful for monitoring of the current performance level in the relation to the assumptions, predict monthly performance, and take action in case of deviations.
+
+Such data provided by external companies is expensive, so this project aims to use internal data to estimate weekly data at national level.
 
 ## Goals
-The goal is to achieve better forecasting accuracy than
+
+The goal is to estimate weekly data for each SKU (Stock Keeping Unit), so that the sum of weekly data reaches satisfactory accuracy for monthly data.
+
+The goal is to build a model for predicting national weekly data for each SKU (Stock Keeping Unit), which the sum of weekly data will reach 97% accuracy compared to monthly data.
+
 ## Data
 
 ## Dependencies
@@ -15,8 +32,10 @@ The goal is to achieve better forecasting accuracy than
 * scikit-learn
 
 ## Action plan
-
-## Scope of work
 After data cleaning and features enginearing build a several ensembling models using the best simple classifiers of each type.
+## Scope of work
+* 01.Data mining
+* 02.Data preprocessing - stage 1
+
 ## Final results
 
