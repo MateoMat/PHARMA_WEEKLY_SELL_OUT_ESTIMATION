@@ -22,6 +22,8 @@ The goal is to estimate weekly data for each SKU (Stock Keeping Unit), so that t
 
 The goal is to build a model for predicting national weekly data for each SKU (Stock Keeping Unit), which the sum of weekly data will reach 97% accuracy compared to monthly data.
 
+This project describes the methodology and procedure for one SKU whose name has been blinded.
+
 ## Data
 
 ## Dependencies
