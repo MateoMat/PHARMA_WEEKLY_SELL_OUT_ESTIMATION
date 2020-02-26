@@ -22,7 +22,8 @@ The goal is to build a ML model for predicting national weekly data for each SKU
 
 This project describes the methodology and procedure for one SKU whose actual name has been blinded.
 
-## Data
+## Data overview:
+The effect of data mining analysis and assumptions is described in [01.Data Mining](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/01.Data%20Mining) folder.
 
 ## Dependencies
 * python 3.7
