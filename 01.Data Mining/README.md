@@ -65,7 +65,7 @@ PHARMACIES_PANEL = pd.read_sql_query(
 
 ```
 
-* In order to verify the current data scope availability for pharmacies, a sql script was created in the panel: model_Panel_Chek.sql*** content available only in local repository ***
+* ***content available only in local repository*** -  In order to verify the current data scope availability for pharmacies, a sql script was created in the panel: model_Panel_Chek.sql
 
 # Product qualification for models
 As mentioned earlier, each SKU requires a separate model to be built.
