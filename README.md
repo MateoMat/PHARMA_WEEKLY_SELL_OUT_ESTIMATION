@@ -18,9 +18,7 @@ Such data provided by external companies is expensive, so this project aims to u
 
 ## Goals
 
-The goal is to estimate weekly data for each SKU (Stock Keeping Unit), so that the sum of weekly data reaches satisfactory accuracy for monthly data.
-
-The goal is to build a model for predicting national weekly data for each SKU (Stock Keeping Unit), which the sum of weekly data will reach 97% accuracy compared to monthly data.
+The goal is to build a ML model for predicting national weekly data for each SKU (Stock Keeping Unit) from internal source, which the sum of this predeicted values meets min. 97% accuracy compared to external monthly data.
 
 This project describes the methodology and procedure for one SKU whose actual name has been blinded.
 
