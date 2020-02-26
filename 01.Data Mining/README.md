@@ -30,8 +30,9 @@ The assumption that individual customer IDs are permanent should be rejected.
 The only common feature describing a single point of sale is the address, however, there are duplicates too.
 
 An important element in the selection of clients for the research panel is:
-  * obligatory value 1 in the 'Active' field of the customer dimension table 
-  * examine the availability of data during the period considered.
+  
+* obligatory value 1 in the 'Active' field of the source customer dimension table (dbo.stanSynchronizacji)
+* examine the availability of data during the period considered.
   
   SQL script
   
