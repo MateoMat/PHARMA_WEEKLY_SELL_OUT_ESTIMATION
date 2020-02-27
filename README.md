@@ -35,8 +35,16 @@ The effect of data mining analysis and assumptions is described in [01.Data Mini
 ## Action plan
 After data cleaning and features enginearing build a several ensembling models using the best simple classifiers of each type.
 ## Scope of work
-* [01.Data mining](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/01.Data%20Mining)
-* [02.Data preprocessing - stage 1](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/02.Data%20preprocessing%20-%20stage%201)
-
+* [01.Data mining :](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/01.Data%20Mining)
+    * Data source overview
+    * Model assumptions
+    * Internal Data description & conclusions
+* [02.Data preprocessing - stage 1 :](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/02.Data%20preprocessing%20-%20stage%201)
+    * 0.Cleaning product dimension
+    * 1.Creating table with raw aggregated data for weekly model
+    * 2.Cleaning and transforming
+    * 3.Joining External to Internal Data
+* [03.Data preprocessing - stage 2 :](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/03.Data%20preprocessing%20-%20stage%202)
+    * Verification and qualification of products for models
 ## Final results
 
