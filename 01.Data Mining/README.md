@@ -39,17 +39,6 @@ An important element in the selection of clients for the research panel is:
 * obligatory value 1 in the 'Active' field of the source customer dimension table (dbo.stanSynchronizacji)
 * examine the availability of data during the period considered.
   
-  SQL script
-  
-```
-    SELECT 
-            apteka
-    FROM SOFT4U.PSDT_WIDOKI.dbo.synchStanAktualizacji 
-    where aktywna=1
-    AND SprzedazMin<='2018-10-01' 
-    AND SprzedazMax>='2020-02-19'
-    GROUP BY apteka
-```
 
 * To maintain the usefulness of the model in the long term - an important element of customer selection is verified internal knowledge about maintaining reporting continuity. 
     * Based on this analysis, **82** were rejected from the database
@@ -60,17 +49,10 @@ An important element in the selection of clients for the research panel is:
 * On the day the clients were defined, **1938** unique clients entered the research panel.
 
 
-:+1: After completing the above steps, a dataset was created  **_00_PHARMACIES_PANEL**
+ :+1: SQL Script: *01.Data Mining - 1.Creating table _01_PHARMACIES_PANEL* - not available in remote repository
+ 
+ :white_check_mark: After completing the above steps, a table was created **_01_PHARMACIES_PANEL**
 
-```
-PHARMACIES_PANEL = pd.read_sql_query(
-'''SELECT 
-        [apteka]
-		,[nazwa]
-    FROM [STAGE_S4U].[model022020].[PHARMACIES_PANEL]
- ''', conn)
-
-```
 
 * ***content available only in local repository*** -  In order to verify the current data scope availability for pharmacies, a sql script was created in the panel: model_Panel_Chek.sql
 
