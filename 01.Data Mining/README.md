@@ -58,8 +58,7 @@ An important element in the selection of clients for the research panel is:
     
     
 * On the day the clients were defined, **1938** unique clients entered the research panel.
-
-* After completing the above steps, a dataset was created **PHARMACIES_PANEL**
+:+1: After completing the above steps, a dataset was created  **_00_PHARMACIES_PANEL**
 
 ```
 PHARMACIES_PANEL = pd.read_sql_query(
