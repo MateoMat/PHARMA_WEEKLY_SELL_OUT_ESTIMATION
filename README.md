@@ -6,7 +6,7 @@ The volume of sales to the consumer should be the basis for strategic analyzes o
 It is using in many areas such as sales,marketing, finance, production.
 
 
-Demand results directly affect the next links in the distribution chain.
+Demand  directly affects the next links in the distribution chain.
 
 
 Short and long-term product strategies are based on achieving a specific result in monthly data.
