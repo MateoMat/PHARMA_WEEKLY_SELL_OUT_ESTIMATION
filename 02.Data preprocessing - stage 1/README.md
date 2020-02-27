@@ -1,7 +1,11 @@
 # 02.Data preprocessing - stage 1
-    
-### 1.Creating table with raw aggregated data for weekly model
 
+### 0.Cleaning product dimension
+Internal data comes from 1938 customers. Each of them has an independent transaction system - this means that product names and identifiers will never be unique and in addition it changes over time. The most labor-intensive process before starting the analysis is to create a product dimension that will 100% download data for a specific product - taking into account the correct ID, names and changes over time for each.
+
+:+1: After completing the above steps, a table was created **dim.PRODUCTS**
+    
+### 1. Creating table with raw aggregated data for weekly model
 
 
 After finalizing the decision to qualify customers for the model described in [previous section](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/01.Data%20Mining), we collect from the database the sum of sales volumes aggregated by weeks for modeling product.
@@ -13,15 +17,23 @@ SQL Script: *02.Data preprocessing - 1.Creating table with raw aggregated data f
 
 :+1: After completing the above steps, a table was created **_02_S4U_AGGR_WEEKS_SELL_OUT_RAW**
 
-### 2.Cleaning and transforming 
+### 2. Cleaning and transforming 
 
 In the next step, we have to transform week dimension, because internal sources are not ISO standarized.
 It means, that the data from every 53 week should be delete and sales have to be added to 01 week of next year.
 
 SQL Script: *02.Data preprocessing - 2.Cleaning and transforming _02_S4U_AGGR_WEEKS_SELL_OUT_RAW* - not available in remote repository
 
-:+1: After completing the above steps, a table was created **_03_S4U_AGGR_WEEKS_SELL_OUT_RAW_CLEAN**
+:+1: After completing the above steps, a table was created **_03_S4U_AGGR_WEEKS_SELL_OUT_CLEAN**
 
+### 3. Joining External to Internal Data
+
+At the end of this stage, we only have to join to table _03_S4U_AGGR_WEEKS_SELL_OUT_CLEAN external data for each product and week
+
+
+SQL Script: *02.Data preprocessing - 3.Joining External to Internal Data* - not available in remote repository
+
+:+1: After completing the above steps, a table was created **_04_WEEKLY_MODEL_DATA_RAW**
 
 
 
@@ -31,7 +43,7 @@ SQL Script: *02.Data preprocessing - 2.Cleaning and transforming _02_S4U_AGGR_WE
 At this stage 
 
 * This notebook contains:
-     * operations of downloading raw sales units data for a single product for each panel pharmacy aggregated into weeks
+
      * verification of completeness of data and lack of deviations
      * missing data implementation
      
