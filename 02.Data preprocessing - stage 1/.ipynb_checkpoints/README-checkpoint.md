@@ -1,6 +1,6 @@
 # 02.Data preprocessing - stage 1
     
-### 1.Creating table with raw aggregated data for model
+### 1.Creating table with raw aggregated data for weekly model
 
 
 
@@ -12,6 +12,15 @@ We also transform named weeks and products to be consistent with subsequent sour
 SQL Script: *02.Data preprocessing - 2.Cleaning and transforming _02_S4U_AGGR_WEEKS_SELL_OUT_RAW* - not available in remote repository
 
 :+1: After completing the above steps, a table was created **_02_S4U_AGGR_WEEKS_SELL_OUT_RAW**
+
+### 2.Cleaning and transforming 
+
+In the next step, we have to transform week dimension, because internal sources are not ISO standarized.
+It means, that the data from every 53 week should be delete and sales have to be added to 01 week of next year.
+
+:+1: After completing the above steps, a table was created **2.Cleaning and transforming _02_S4U_AGGR_WEEKS_SELL_OUT_RAW**
+
+
 
 
 
