@@ -61,7 +61,7 @@ An important element in the selection of clients for the research panel is:
 
 # Product qualification for models
 As mentioned earlier, each SKU requires a separate model to be built.
-But to answer the question of which products qualify for research we will do the following analysis.
+But to answer the question of which products qualify are best for research we will do the following analysis.
 
 # correlation
 # ND Stock

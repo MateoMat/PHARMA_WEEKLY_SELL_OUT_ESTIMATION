@@ -39,11 +39,4 @@ At the end of this stage, we only have to join to table _03_S4U_AGGR_WEEKS_SELL_
 :point_left: [Back to main page](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION)
 
 
-
-At this stage 
-
-* This notebook contains:
-
-     * verification of completeness of data and lack of deviations
-     * missing data implementation
      
