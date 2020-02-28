@@ -1,10 +1,10 @@
 # 03.Data preprocessing - stage 2
 
-## Verification of products for models that meet`s observations sum assumption
+## Verification of products for models that meet's observations sum assumption
 
 ### 1.Removing products that do not have external data
 
-**important** If tWhere are products that have weeks without sales in the internal source data, they should also be removed.
+**important** If there are products that have weeks without sales in the internal source data, they should also be removed.
 The previous scripts have internal data as the primary table for thethe left-join relations, so we prevented it at an earlier stage.
 
 :+1: SQL Script: *03.Data preprocessing - 1.Deleting products without external data* - not available in remote repository
