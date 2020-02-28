@@ -8,7 +8,7 @@ Internal data comes from 1938 customers. Each of them has an independent transac
 ### 1. Creating table with raw aggregated data for weekly model
 
 
-After finalizing the decision to qualify customers for the model described in [previous section](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/01.Data%20Mining), we collect from the database the sum of sales volumes aggregated by weeks for modeling product.
+After finalizing the decision to qualify customers for the model described in [previous section](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/01.Data%20Mining#model-assumptions), we collect from the database the sum of sales volumes aggregated by weeks for modeling product.
 We also transform named weeks and products to be consistent with subsequent sources.
 
 *It is extremely important to exclude from the source all transactions that are not selling to the consumer but only selling to another entity*
