@@ -50,7 +50,7 @@ After data cleaning and features enginearing build a several ensembling models u
     * [1.Removing products that do not have external data](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/03.Data%20preprocessing%20-%20stage%202#1removing-products-that-do-not-have-external-data)
     * [2.Removing products without obligatory number of observations.](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/03.Data%20preprocessing%20-%20stage%202#2removing-products-without-obligatory-number-of-observations)
      
-* [04.Product qualification for models :]  
+* [04.Product qualification for models :](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/04.Product%20qualification%20for%20models)  
      
 ## Final results
 
