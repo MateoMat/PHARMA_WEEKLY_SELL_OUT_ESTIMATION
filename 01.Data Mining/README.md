@@ -59,12 +59,6 @@ An important element in the selection of clients for the research panel is:
 :point_left: [Back to main page](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION)
 
 
-# Product qualification for models
-As mentioned earlier, each SKU requires a separate model to be built.
-But to answer the question of which products qualify are best for research we will do the following analysis.
 
-# correlation
-# ND Stock
-#
 
 
