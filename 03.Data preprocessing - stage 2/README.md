@@ -18,3 +18,6 @@ As we assumed in model have to be build on 65 observations. Some products are la
 :+1: SQL Script: *03.Data preprocessing - 2.Removing products without obligatory number of observations* - not available in remote repository
 
 :white_check_mark: After completing the above steps, a table was created **_06_WEEKLY_MODEL_DATA_CLEAN**
+
+
+:point_left: [Back to main page](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION)

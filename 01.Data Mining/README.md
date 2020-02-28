@@ -56,6 +56,7 @@ An important element in the selection of clients for the research panel is:
 
 * ***content available only in local repository*** -  In order to verify the current data scope availability for pharmacies, a sql script was created in the panel: model_Panel_Chek.sql
 
+:point_left: [Back to main page](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION)
 
 
 # Product qualification for models
