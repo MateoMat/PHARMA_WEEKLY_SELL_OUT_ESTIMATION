@@ -45,6 +45,12 @@ After data cleaning and features enginearing build a several ensembling models u
     * 2.Cleaning and transforming
     * 3.Joining External to Internal Data
 * [03.Data preprocessing - stage 2 :](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/03.Data%20preprocessing%20-%20stage%202)
-    * Verification and qualification of products for models
+    
+    Verification and qualification of products for models
+    * 1.Removing products that do not have external data
+    * 2.Removing products without obligatory number of observations.
+     
+     
+     
 ## Final results
 
