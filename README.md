@@ -46,7 +46,7 @@ After data cleaning and features enginearing build a several ensembling models u
     * [3.Joining External to Internal Data](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/02.Data%20preprocessing%20-%20stage%201#3-joining-external-to-internal-data)
 * [03.Data preprocessing - stage 2 :](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/03.Data%20preprocessing%20-%20stage%202)
     
-    Verification and qualification of products for models
+    ## Verification of products for models that meet`s observations sum assumption
     * [1.Removing products that do not have external data](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/03.Data%20preprocessing%20-%20stage%202#1removing-products-that-do-not-have-external-data)
     * [2.Removing products without obligatory number of observations.](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/03.Data%20preprocessing%20-%20stage%202#2removing-products-without-obligatory-number-of-observations)
      
