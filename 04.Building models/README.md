@@ -2,7 +2,7 @@
 
 ## At this stage, we will create models and find suitable hyperparameters
 
-1. Importing libraries
+### 1. Importing libraries
 
 ```python
 import pandas as pd
@@ -27,7 +27,7 @@ from sklearn import  metrics
 
 ```
 
-2. Importing prepared data
+### 2. Importing prepared data
 
 ```python
 # Creating connection variable
@@ -40,13 +40,13 @@ product = ["'Product_1'"]
 df = pd.read_sql_query(
 f'''SELECT * FROM _05_WEEKLY_MODEL_DATA_CLEAN WHERE PRODUCT_OE={product[0]}
  ''', conn
-#     params="SACHOL JEL. 1 10 G"
+
 )
 product = product_query[0][1:-1]
 
 ```
 
-3. Checking data describe
+### 3. Checking data describe
 
 ```python
 df.describe()
