@@ -31,6 +31,7 @@ The effect of data mining analysis and assumptions is described in [01.Data Mini
 * numpy
 * matplotlib
 * scikit-learn
+* pandas_profiling
 
 ## Action plan
 After data cleaning and features enginearing build a several ensembling models using the best simple classifiers of each type.
