@@ -52,3 +52,6 @@ product = product_query[0][1:-1]
 df.describe()
 ```
 ![Dataframe describe results](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Building%20models/img/dfDescribe.PNG )
+
+![BoxPlot](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Building%20models/img/SellOutUnitsIMSBoxPlot.PNG)
+![BoxPlot](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Building%20models/img/SellOutUnitsS4UBoxPlot.PNG)
