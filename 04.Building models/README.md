@@ -51,4 +51,4 @@ product = product_query[0][1:-1]
 ```python
 df.describe()
 ```
-![image info](/img/dfDescribe.PNG.png)
+![image info](img/dfDescribe.png)
