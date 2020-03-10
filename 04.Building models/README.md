@@ -51,4 +51,4 @@ product = product_query[0][1:-1]
 ```python
 df.describe()
 ```
-![image info](./img/dfDescribe.png)
+![Dataframe describe results](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Building%20models/img/dfDescribe.PNG )
