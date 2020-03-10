@@ -13,7 +13,7 @@ The previous scripts have internal data as the primary table for the left-join r
 
 ### 2.Removing products without obligatory number of observations.
 
-As we assumed in model have to be build on 65 observations. Some products are launching in the mean time, so we have to remove them.
+As we assumed in model have to be build on 70 observations. Some products are launching in the mean time, so we have to remove them.
 
 :+1: SQL Script: *03.Data preprocessing - 2.Removing products without obligatory number of observations* - not available in remote repository
 

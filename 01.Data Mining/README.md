@@ -16,16 +16,16 @@
 
 # Model assumptions:
 * ISO 8601 leap week calendar system
-* Data date scope : 2018-10-01 - 2019-12-29
+* Data date scope : 2018-08-27 - 2019-12-29
 * Observation consists of sum of unit sales from all clients aggregated to weeks
-* The number of all observations available for weekly data - 65
+* The number of all observations available for weekly data - 70
     * training set - 56 observations
-    * test set - 9 observations
+    * test set - 14 observations
 * Monthly accuracy will be compared on validation set consist:
     * validation external monthly set - 15 
     * based on model monthly prediction - 15
     
-* The number of all observations available for monthly data data - 14
+* The number of all observations available for monthly data data - 16
     
 # Internal Data description & conclusions:
 
