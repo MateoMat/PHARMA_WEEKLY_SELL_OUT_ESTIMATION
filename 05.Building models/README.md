@@ -174,6 +174,12 @@ print(RansacModel.best_params_)
 
 **best params:** {'min_samples': 5}
 
+* 4.Metrics results
+
+
+
+![MetricsResults.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/05.Building%20models/img/MetricsResults.PNG )
+
 
 
 
