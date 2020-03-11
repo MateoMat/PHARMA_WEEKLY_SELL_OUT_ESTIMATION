@@ -35,11 +35,13 @@ product = product_query[0][1:-1]
 ```python
 df.describe()
 ```
-![Dataframe describe results](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Building%20models/img/dfDescribe.PNG )
+![Dataframe describe results](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Verification%20of%20processed%20data/img/dfDescribe.PNG )
 
 ### 4. Data set linearity and correlation
 
-
+As we can see below:
+- high linear correlation (Pearson) occurs
+- high monotonic correlation (Spearman, Tau Kendall) occurs
 
 ```python
 plt.figure(figsize=(6,6))
