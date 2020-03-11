@@ -45,18 +45,3 @@ f'''SELECT * FROM _05_WEEKLY_MODEL_DATA_CLEAN WHERE PRODUCT_OE={product[0]}
 product = product_query[0][1:-1]
 
 ```
-
-### 3. Checking data describe
-
-```python
-df.describe()
-```
-![Dataframe describe results](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Building%20models/img/dfDescribe.PNG )
-
-
-### 4. Outliers verification
-
-As we can see in the box chart - we observe two outliers in both internal and external data. We assume that they do not significantly affect the result (we know from domain knowledge that they can be repeated in future internal values).
-
-![BoxPlot](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Building%20models/img/SellOutUnitsIMSBoxPlot.PNG)
-![BoxPlot](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Building%20models/img/SellOutUnitsS4UBoxPlot.PNG)
