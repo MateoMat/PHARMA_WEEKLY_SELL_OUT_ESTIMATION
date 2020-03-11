@@ -46,7 +46,7 @@ plt.title("DataFrame scatter plot ")
 plt.scatter(df['SELLOUT_UNITS_IMS'], df['SELLOUT_UNITS_S4U'],  color='orange')
 plt.show()
 ```
-![Correlations](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Verification%20of%20processed%20data/img/DataFrameScatterPlot.png)
+![DataFrameScatterPlot](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Verification%20of%20processed%20data/img/DataFrameScatterPlot.png)
 
 
 ```python
@@ -59,7 +59,7 @@ Kendall = df['SELLOUT_UNITS_IMS'].corr(df['SELLOUT_UNITS_S4U'], method='kendall'
 Correlation = pd.DataFrame(data={'Spearman': [Spearman], 'Pearson': [Pearson], 'Kendall':[Kendall]})
 Correlation.style.hide_index()
 ```
-
+![Correlation](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Verification%20of%20processed%20data/img/Correlation.PNG)
 
 ### 5. Outliers verification
 
