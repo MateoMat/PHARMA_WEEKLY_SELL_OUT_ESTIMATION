@@ -155,7 +155,7 @@ RandomForrestRegressorModel.fit(X_train, y_train)
 print(RandomForrestRegressorModel.best_params_)
 ```
 
-**best params:** {'max_depth': 200, 'max_features': 'log2','n_estimators': 100}
+**best params:** {'max_depth': 350, 'max_features': 'auto', 'n_estimators': 100}
 
 * RANSAC Regressor Model
 
