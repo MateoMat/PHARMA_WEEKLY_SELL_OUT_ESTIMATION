@@ -69,5 +69,5 @@ Correlation.style.hide_index()
 
 As we can see in the box chart - we observe two outliers in both internal and external data. We assume that they do not significantly affect the result (we know from domain knowledge that they can be repeated in future internal values).
 
-![SellOutUnitsIMSBoxPlot](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Building%20models/img/SellOutUnitsIMSBoxPlot.PNG)
-![SellOutUnitsS4UBoxPlot](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Building%20models/img/SellOutUnitsS4UBoxPlot.PNG)
+![SellOutUnitsIMSBoxPlot](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Verification%20of%20processed%20data/img/SellOutUnitsIMSBoxPlot.PNG)
+![SellOutUnitsS4UBoxPlot](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Verification%20of%20processed%20data/img/SellOutUnitsS4UBoxPlot.PNG)
