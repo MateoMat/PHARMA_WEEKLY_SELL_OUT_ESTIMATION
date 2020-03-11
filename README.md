@@ -55,7 +55,7 @@ After data cleaning and features enginearing build a several ensembling models u
 
 * [05.Building models :](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/05.Building%20models)
 
-* [06.Summary of model results :](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/06.Summary%20of%20model%20results) 
+* [06.Summary of models results :](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/06.Summary%20of%20model%20results) 
      
 ## Final results
 
