@@ -160,8 +160,6 @@ print(RandomForrestRegressorModel.best_params_)
 * RANSAC Regressor Model
 
 ```python
-from sklearn.linear_model import RANSACRegressor
-
 RansacModel = GridSearchCV(RANSACRegressor(random_state=0),
                   param_grid={
                    'min_samples': [1,2,3,4,5,6,7,8,9]},
@@ -174,11 +172,7 @@ print(RansacModel.best_params_)
 
 **best params:** {'min_samples': 5}
 
-* 4.Metrics results
-
-
-
-![MetricsResults.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/05.Building%20models/img/MetricsResults.PNG )
+:point_left: [Back to main page](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION)
 
 
 
