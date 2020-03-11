@@ -37,7 +37,7 @@ df.describe()
 ```
 ![Dataframe describe results](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Building%20models/img/dfDescribe.PNG )
 
-### 4. data set linearity and correlation
+### 4. Data set linearity and correlation
 
 ```python
 plt.figure(figsize=(6,6))
@@ -46,7 +46,7 @@ plt.title("DataFrame scatter plot ")
 plt.scatter(df['SELLOUT_UNITS_IMS'], df['SELLOUT_UNITS_S4U'],  color='orange')
 plt.show()
 ```
-![SellOutUnitsIMSBoxPlot](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Building%20models/img/SellOutUnitsIMSBoxPlot.PNG)
+![Correlations](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Verification%20of%20processed%20data/img/DataFrameScatterPlot.png)
 
 
 ```python
