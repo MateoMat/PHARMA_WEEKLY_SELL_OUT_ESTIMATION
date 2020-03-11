@@ -56,7 +56,7 @@ df.describe()
 
 ### 4. Outliers verification
 
-
+As we can see in the box chart - we observe two outliers in both internal and external data. We assume that they do not significantly affect the result (we know from domain knowledge that they can be repeated in future internal values).
 
 ![BoxPlot](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Building%20models/img/SellOutUnitsIMSBoxPlot.PNG)
 ![BoxPlot](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Building%20models/img/SellOutUnitsS4UBoxPlot.PNG)
