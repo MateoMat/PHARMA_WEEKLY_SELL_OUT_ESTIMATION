@@ -39,6 +39,8 @@ df.describe()
 
 ### 4. Data set linearity and correlation
 
+
+
 ```python
 plt.figure(figsize=(6,6))
 axes = plt.gca()
