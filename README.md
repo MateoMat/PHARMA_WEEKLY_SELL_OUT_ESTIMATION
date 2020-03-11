@@ -18,7 +18,7 @@ Such data provided by external companies is expensive, so this project aims to u
 
 ## Goals
 
-The goal is to build a ML model for predicting national weekly data for each SKU (Stock Keeping Unit) from internal source, which the sum of this predeicted values meets min. 97% accuracy compared to external monthly data.
+The goal is to build a ML Regression model for predicting national weekly data for each SKU (Stock Keeping Unit) from internal source, which the sum of predicted values meets the closest score to external monthly data.
 
 This project describes the methodology and procedure for one SKU whose actual name has been blinded.
 
@@ -51,7 +51,7 @@ After data cleaning and features enginearing build a several ensembling models u
     * [1.Removing products that do not have external data](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/03.Data%20preprocessing%20-%20stage%202#1removing-products-that-do-not-have-external-data)
     * [2.Removing products without obligatory number of observations.](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/03.Data%20preprocessing%20-%20stage%202#2removing-products-without-obligatory-number-of-observations)
      
-* [04.Product qualification for models :](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/04.Product%20qualification%20for%20models)  
+* [04.Verification of processed data :](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/04.Verification%20of%20processed%20data)  
      
 ## Final results
 
