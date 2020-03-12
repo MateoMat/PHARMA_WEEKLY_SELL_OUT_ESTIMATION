@@ -49,15 +49,15 @@ After data cleaning and features enginearing build a several ensembling models u
     
    Verification of products for models that meets's observations sum assumption
     * [1.Removing products that do not have external data](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/03.Data%20preprocessing%20-%20stage%202#1removing-products-that-do-not-have-external-data)
-    * [2.Removing products without obligatory number of observations.](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/03.Data%20preprocessing%20-%20stage%202#2removing-products-without-obligatory-number-of-observations)
+    * [2.Removing products without obligatory number of observations](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/03.Data%20preprocessing%20-%20stage%202#2removing-products-without-obligatory-number-of-observations)
      
 * [04.Verification of processed data :](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/04.Verification%20of%20processed%20data) 
 
 * [05.Building models :](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/05.Building%20models)
 
 * [06.Summary of models results :](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/06.Summary%20of%20model%20results)
-    * [1.Removing products that do not have external data](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/03.Data%20preprocessing%20-%20stage%202#1removing-products-that-do-not-have-external-data)
-    * [2.Removing products without obligatory number of observations.](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/03.Data%20preprocessing%20-%20stage%202#2removing-products-without-obligatory-number-of-observations)
+    * [01.Metrics code](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/06.Summary%20of%20model%20results#01metrics-code)
+    * [02.Conclusions](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/06.Summary%20of%20model%20results#02conclusions)
      
 ## Final results
 
