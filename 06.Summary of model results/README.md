@@ -57,6 +57,29 @@ metrics
 
 ### 02.Conclusions
 
+Analyzing the metrics of individual models, we can see that the r2 values for the models are similar and oscillate in the range of 0.815-0.853 (MLP Regressor is excluded from further analysis).
+
+The best result for both R2 and the lowest errors were achieved using a model using the Random Forrest algorithm.
+
+It should also be noted that this algorithm works best, but only for data whose value falls within the min-max range for observations on the training set.
+
+When analyzing the product history, we do not notice many significant outliers and significant deviations from the average.
+
+**We can therefore qualify this model for prediction of full weeks as best suited.**
+
+However, referring to the assumptions of the project - **our goal is to find the model that will best predict the data of the explained variable, based on which the sum of the week will be closest to the external monthly data**.
+
+So we must note that in the weekly sales volume in internal data narrowed to full months there will be weeks in which the quantity will be significantly different from the average. This will be due to fewer days of the specific month in the ISO week number.
+
+As a result - this algorithm will not work for sales predictions that differ significantly from the average.
+
+**Accordingly, we exclude the Random Forest and Ridge algorithm from the weekly prediction for aggregated monthly data.**
+
+Therefore, we qualify models for further testing :
+* ElasticNet,
+* Lasso,
+* Linear,
+* SVR
 
 :point_left: [Back to main page](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION)
 
