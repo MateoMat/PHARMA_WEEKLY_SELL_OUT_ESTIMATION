@@ -52,7 +52,12 @@ After data cleaning and features enginearing build a several ensembling models u
     * [2.Removing products without obligatory number of observations](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/03.Data%20preprocessing%20-%20stage%202#2removing-products-without-obligatory-number-of-observations)
      
 * [04.Verification of processed data :](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/04.Verification%20of%20processed%20data) 
-
+    * [1.Importing libraries](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/04.Verification%20of%20processed%20data#1-importing-libraries)
+    * [2.Importing prepared data](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/04.Verification%20of%20processed%20data#2-importing-prepared-data)
+    * [3.Checking data describe](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/04.Verification%20of%20processed%20data#3-checking-data-describe)
+    * [4.Data set linearity and correlation](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/04.Verification%20of%20processed%20data#4-data-set-linearity-and-correlation)
+    * [5.Outliers verification](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/04.Verification%20of%20processed%20data#5-outliers-verification)
+    
 * [05.Building models :](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/05.Building%20models)
     * [1.Importing libraries](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/05.Building%20models#1-importing-libraries)
     * [2.Importing prepared data](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/05.Building%20models#2-importing-prepared-data)
