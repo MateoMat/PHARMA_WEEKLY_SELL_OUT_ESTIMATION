@@ -49,14 +49,13 @@ metrics.insert(loc=0, column='Method', value=['ElasticNet','Lasso','Ridge','LR',
           
 metrics
 ```
-mean absolute error - informuje on o ile średnio w okresie prognoz, będzie wynosić odchylenie od wartości rzeczywistej. Czyli, krótko mówiąc, o jakim błędem miarowym jest obarczona nasza prognoza.
-
-
 ![MetricsResults.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/06.Summary%20of%20model%20results/img/MetricsResults.PNG )
 
 ![SummaryGraph.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/06.Summary%20of%20model%20results/img/Summary.png )
 
 :point_left: [Back to main page](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION)
+
+### Conclusions
 
 
 
