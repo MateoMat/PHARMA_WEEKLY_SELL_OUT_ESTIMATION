@@ -22,4 +22,4 @@ As we assumed in model have to be build on 70 observations. Some products are la
 After analyzing our own sources - finally **104** products have a sufficient number of observations.
 
 
-:point_left: [Back to main page](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION)
+:point_left: [Back to main page](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION#scope-of-work)

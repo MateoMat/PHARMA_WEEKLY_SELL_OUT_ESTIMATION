@@ -72,4 +72,4 @@ As we can see in the box chart - we observe two outliers in both internal and ex
 ![SellOutUnitsIMSBoxPlot](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Verification%20of%20processed%20data/img/SellOutUnitsIMSBoxPlot.PNG)
 ![SellOutUnitsS4UBoxPlot](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/04.Verification%20of%20processed%20data/img/SellOutUnitsS4UBoxPlot.PNG)
 
-:point_left: [Back to main page](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION)
+:point_left: [Back to main page](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION#scope-of-work)

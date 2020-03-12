@@ -172,7 +172,7 @@ print(RansacModel.best_params_)
 
 **best params:** {'min_samples': 5}
 
-:point_left: [Back to main page](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION)
+:point_left: [Back to main page](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION#scope-of-work)
 
 
 

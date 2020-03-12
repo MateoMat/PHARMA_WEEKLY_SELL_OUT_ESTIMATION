@@ -36,7 +36,7 @@ At the end of this stage, we only have to join to table _03_S4U_AGGR_WEEKS_SELL_
 :white_check_mark: After completing the above steps, a table was created **_04_WEEKLY_MODEL_DATA_RAW**
 
 
-:point_left: [Back to main page](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION)
+:point_left: [Back to main page](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION#scope-of-work)
 
 
      
