@@ -62,11 +62,12 @@ After data cleaning and features enginearing build a several ensembling models u
     * [1.Importing libraries](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/05.Building%20models#1-importing-libraries)
     * [2.Importing prepared data](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/05.Building%20models#2-importing-prepared-data)
     * [3.Model workflow](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/05.Building%20models#3-model-workflow)
-    
 
 * [06.Summary of models results :](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/06.Summary%20of%20model%20results)
     * [01.Metrics code](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/06.Summary%20of%20model%20results#01metrics-code)
     * [02.Conclusions](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/06.Summary%20of%20model%20results#02conclusions)
+    
+* [07.Testing models results with monthly data :](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/07.Testing%20models%20results%20with%20monthly%20data/)
      
 ## Final results
 
