@@ -1,7 +1,7 @@
 
 # 06. Summary of model results
 
-### Metrics code
+### 01.Metrics code
 
 ```python
 from sklearn import  metrics
@@ -53,10 +53,12 @@ metrics
 
 ![SummaryGraph.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/06.Summary%20of%20model%20results/img/Summary.png )
 
+
+
+### 02.Conclusions
+
+
 :point_left: [Back to main page](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION)
-
-### Conclusions
-
 
 
 
