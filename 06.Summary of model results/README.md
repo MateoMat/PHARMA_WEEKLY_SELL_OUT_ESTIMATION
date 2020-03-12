@@ -81,7 +81,7 @@ Therefore, we qualify models for further testing :
 * Linear,
 * SVR
 
-:point_left: [Back to main page](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION)
+:point_left: [Back to main page](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION#scope-of-work)
 
 
 
