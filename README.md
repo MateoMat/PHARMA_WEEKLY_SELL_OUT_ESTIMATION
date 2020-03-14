@@ -88,5 +88,7 @@ As a result of the work carried out, we obtained high accuracy of monthly predic
 The decision on the final choice of the model must always be preceded by visual analysis of monthly data and domain knowledge.
 
 Mean monthly accuracy of sales units prediction vs external benchmark
+
+
 ![MeanMonthlyAccuracy.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/MeanMonthlyAccuracy.PNG)
 
