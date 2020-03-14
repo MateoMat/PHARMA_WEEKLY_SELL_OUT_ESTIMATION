@@ -68,6 +68,8 @@ After data cleaning and features enginearing build a several ensembling models u
     * [02.Conclusions](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/06.Summary%20of%20model%20results#02conclusions)
     
 * [07.Testing models results with monthly data :](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/07.Testing%20models%20results%20with%20monthly%20data/)
+    * [1.Preparing DataFrame](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/07.Testing%20models%20results%20with%20monthly%20data#1-preparing-dataframe)
+    * [2. Visualization and summary of monthly predictions in relation to external data](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/tree/master/06.Summary%20of%20model%20results#02conclusions)
      
 ## Final results
 

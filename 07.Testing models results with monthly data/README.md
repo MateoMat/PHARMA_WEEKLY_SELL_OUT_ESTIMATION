@@ -250,6 +250,8 @@ COMPARISON_DATA.describe()
 ```
 ![ComparisonDataDescribe.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/ComparisonDataDescribe.PNG )
 
+## 2. Visualization and summary of monthly predictions in relation to external data
+
 ```python
 %matplotlib inline
 import numpy as np
@@ -281,5 +283,8 @@ PercentageOfMonthlyDataAccuracy = dd.div(dd['SELL_OUT_UNITS_IMS'],axis=0)
 PercentageOfMonthlyDataAccuracy.round(3)*100
 ```
 ![PercentageOfMonthlyDataAccuracy.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/PercentageOfMonthlyDataAccuracy.PNG)
+
+
+:point_left: [Back to main page](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION#scope-of-work)
 
 
