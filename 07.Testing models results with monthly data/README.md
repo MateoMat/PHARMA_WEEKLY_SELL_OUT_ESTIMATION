@@ -252,6 +252,9 @@ COMPARISON_DATA.describe()
 
 ## 2. Visualization and summary of monthly predictions in relation to external data
 
+Based on the visualization and table below, we reject the linear and SVR model.
+At the same time, we note the high accuracy of aggregated monthly prediction for the Lasso, Ransac and ElasicNet models.
+
 ```python
 %matplotlib inline
 import numpy as np
@@ -284,6 +287,7 @@ PercentageOfMonthlyDataAccuracy.round(3)*100
 ```
 ![PercentageOfMonthlyDataAccuracy.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/PercentageOfMonthlyDataAccuracy.PNG)
 
+:chart_with_upwards_trend: [The final conclusions are presented on the main page in the final results section](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION#final-results)
 
 :point_left: [Back to main page](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION#scope-of-work)
 
