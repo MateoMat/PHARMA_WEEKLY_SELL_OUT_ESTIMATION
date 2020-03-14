@@ -73,18 +73,18 @@ EXTERNAL_MONTHLY_DATA.describe()
 ![ModelData.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/ExternalMonthlyDataDescribe.PNG )
 
 ```python
+# importing internal data for prediction in ISO Weeks with month mark
+WeekToMonth = pd.read_excel('06.WeekToMonth.xlsx')
+```
+![ModelData.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/WeekToMonthDescribe.PNG )
+
+```python
 # setting kFold and split data set
 seed=42
 kfold = model_selection.KFold(n_splits=5, random_state=seed)
 y=df[["SELLOUT_UNITS_IMS"]]
 X=df[["SELLOUT_UNITS_S4U"]]
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
-# importing internal data for prediction in ISO Weeks with month mark
-WeekToMonth = pd.read_excel('06.WeekToMonth.xlsx')
-
-
-
 
 ```
 
