@@ -236,3 +236,17 @@ MONTHLY_MODEL_COMPARISON.describe()
 ```
 ![ModelData.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/MonthlyModelComparison.PNG )
 
+```python
+# Removing product column from external data
+EXTERNAL_MONTHLY_DATA.drop('PRODUCT',axis=1,inplace=True)
+
+# changing month data type
+EXTERNAL_MONTHLY_DATA[["MONTH"]] = EXTERNAL_MONTHLY_DATA[["MONTH"]].apply(pd.to_datetime)
+
+# merging internal aggregated data to external monthly data
+COMPARISON_DATA=MONTHLY_MODEL_COMPARISON.merge(EXTERNAL_MONTHLY_DATA,left_on='MONTH', right_on='MONTH')
+COMPARISON_DATA.describe()
+
+```
+![ModelData.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/ComparisonDataDescribe.PNG )
+
