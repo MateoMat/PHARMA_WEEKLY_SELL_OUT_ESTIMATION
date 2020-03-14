@@ -46,11 +46,13 @@ product = product_query[0][1:-1]
 df.drop('Week', axis=1,inplace=True)
 df.drop('BLOZ_VALID',axis=1,inplace=True)
 df.drop('PRODUCT_OE',axis=1,inplace=True)
+
+df.describe()
 ```
-Inline-style: 
-![ModelData.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/ModelData.PNG )
 
+![ModelData.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/ModelDataDescribe.PNG )
 
+```python
 # importing DataFrame - internal data from different server
 conn_ext = pyodbc.connect('DRIVER={SQL Server};SERVER=blind;DATABASE=blind;UID=blind;PWD=blind;Trusted_Connection=no')
 EXTERNAL_MONTHLY_DATA = pd.read_sql_query(
@@ -65,6 +67,12 @@ AND Miesiac>='2019-01-01' order by Miesiac
 ''',conn_ext
 )
 
+EXTERNAL_MONTHLY_DATA.describe()
+```
+
+![ModelData.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/ExternalMonthlyDataDescribe.PNG )
+
+```python
 # setting kFold and split data set
 seed=42
 kfold = model_selection.KFold(n_splits=5, random_state=seed)
