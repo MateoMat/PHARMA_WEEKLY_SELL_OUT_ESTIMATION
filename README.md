@@ -92,7 +92,4 @@ Mean monthly accuracy of sales units prediction vs external benchmark
 
 ![MeanMonthlyAccuracy.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/MeanMonthlyAccuracy.PNG)
 
-```python
-cols=['Mean_Monthly_Accuracy']
-pd.DataFrame(PercentageOfMonthlyDataAccuracy.mean(),columns=cols)
-```
+

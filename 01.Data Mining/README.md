@@ -10,9 +10,9 @@
 * MONTHLY_EXTERNAL_SELL_OUT - table contains monthly product sales units to the customers at national level. Data are the result of estimation based on a sample of 45% of customers in Poland.
 * WEEKLY_EXTERNAL_SELL_OUT - Table contains weekly product sales units to customers at national level. Data are the result of estimation based on a sample of 45% of customers in Poland.
 
-* WEEKLY_INTERNAL_SELL_OUT - table contains information about the sum of sales units to the customer collected from sales points in the S4U system. Aggregation for weeks. Source data transformed, which are described in aaaa. 
+* WEEKLY_INTERNAL_SELL_OUT - table contains information about the sum of sales units to the customer collected from sales points in the S4U system. Aggregation for weeks. Source data transformed.
 
-* MONTHLY_INTERNAL_SELL_OUT - table contains information about the sum of sales units to the customer collected from sales points in the S4U system. Aggregation for months. Source data transformed (details in aaa).
+* MONTHLY_INTERNAL_SELL_OUT - table contains information about the sum of sales units to the customer collected from sales points in the S4U system. Aggregation for months. Source data transformed.
 
 # Model assumptions:
 * ISO 8601 leap week calendar system
@@ -46,7 +46,7 @@ An important element in the selection of clients for the research panel is:
 * The data shows a delay in synchronizing some clients to the database. As recommended by the software owner, the data achieve high convergence within +3 business days from the end of the analyzed period.
     
     
-* On the day the clients were defined, **1938** unique clients entered the research panel.
+* On the day the clients were defined, **1951** unique clients entered the research panel.
 
 
  :+1: SQL Script: *01.Data Mining - 1.Creating table _01_PHARMACIES_PANEL* - not available in remote repository

@@ -9,7 +9,7 @@ The previous scripts have internal data as the primary table for the left-join r
 
 :+1: SQL Script: *03.Data preprocessing - 1.Deleting products without external data* - not available in remote repository
 
-:white_check_mark: After completing the above steps, a table was created **_05_WEEKLY_MODEL_DATA_RAW_1**
+:white_check_mark: After completing the above steps, a table was created **_05_WEEKLY_MODEL_DATA_RAW**
 
 ### 2.Removing products without obligatory number of observations.
 

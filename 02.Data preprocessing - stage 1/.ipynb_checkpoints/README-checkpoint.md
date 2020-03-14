@@ -20,7 +20,7 @@ We also transform named weeks and products to be consistent with subsequent sour
 ### 2. Cleaning and transforming 
 
 In the next step, we have to transform week dimension, because internal sources are not ISO standarized.
-It means, that the data from every 53 week should be delete and sales have to be added to 01 week of next year.
+It means, that the data should transform, by each transaction date to ISO week.
 
 :+1: SQL Script: *02.Data preprocessing - 2.Cleaning and transforming _02_S4U_AGGR_WEEKS_SELL_OUT_RAW* - not available in remote repository
 
