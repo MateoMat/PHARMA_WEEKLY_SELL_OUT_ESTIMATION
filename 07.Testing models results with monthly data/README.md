@@ -228,5 +228,11 @@ for idx,i in enumerate(results):
 WeekToMonth.insert(7,'RansacModel_Predict',RansacModel_Predict)
 ```
 
+```python
+# aggregating weekly data to monthly
+MONTHLY_MODEL_COMPARISON = WeekToMonth.groupby("MONTH",as_index=False).sum()
+MONTHLY_MODEL_COMPARISON.describe()
 
+```
+![ModelData.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/MonthlyModelComparison.PNG )
 
