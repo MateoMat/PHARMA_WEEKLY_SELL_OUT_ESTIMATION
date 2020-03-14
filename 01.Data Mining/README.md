@@ -22,10 +22,10 @@
     * training set - 56 observations
     * test set - 14 observations
 * Monthly accuracy will be compared on validation set consist:
-    * validation external monthly set - 15 
-    * based on model monthly prediction - 15
+    * validation external monthly set - 13 
+    * based on model monthly prediction - 13
     
-* The number of all observations available for monthly data data - 16
+* The number of all observations available for monthly data data - 13
     
 # Internal Data description & conclusions:
 
