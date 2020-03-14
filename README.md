@@ -74,10 +74,10 @@ After data cleaning and features enginearing build a several ensembling models u
 ## Final results
 
 
-* All models Monthly units prediction and external data benchmark
+* All models monthly units prediction and external data benchmark
 ![MonthlyPredictionVsExternalMonthlyData.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/MonthlyPredictionVsExternalMonthlyData.png)
 
-* Accuracy of monthly units sales prediction vs external units benchmark
+* Percentage accuracy of monthly units sales prediction vs external units benchmark
 ![PercentageOfMonthlyDataAccuracy.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/PercentageOfMonthlyDataAccuracy.PNG)
 
 
@@ -92,3 +92,7 @@ Mean monthly accuracy of sales units prediction vs external benchmark
 
 ![MeanMonthlyAccuracy.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/MeanMonthlyAccuracy.PNG)
 
+```python
+cols=['Mean_Monthly_Accuracy']
+pd.DataFrame(PercentageOfMonthlyDataAccuracy.mean(),columns=cols)
+```

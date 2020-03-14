@@ -287,6 +287,13 @@ PercentageOfMonthlyDataAccuracy.round(3)*100
 ```
 ![PercentageOfMonthlyDataAccuracy.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/PercentageOfMonthlyDataAccuracy.PNG)
 
+```python
+cols=['Mean_Monthly_Accuracy']
+pd.DataFrame(PercentageOfMonthlyDataAccuracy.mean(),columns=cols)
+```
+![MeanMonthlyAccuracy.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/MeanMonthlyAccuracy.PNG)
+
+
 :chart_with_upwards_trend: [The final conclusions are presented on the main page in the final results section](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION#final-results)
 
 :point_left: [Back to main page](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION#scope-of-work)
