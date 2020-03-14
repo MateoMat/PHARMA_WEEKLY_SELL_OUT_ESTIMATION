@@ -80,6 +80,13 @@ After data cleaning and features enginearing build a several ensembling models u
 * Accuracy of monthly units sales prediction vs external units benchmark
 ![PercentageOfMonthlyDataAccuracy.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/PercentageOfMonthlyDataAccuracy.PNG)
 
+
+* Summary
+
+As a result of the work carried out, we obtained high accuracy of monthly prediction values. Finally, the **ElasticNet** model achieved the highest accuracy **1.001627**, however, we also have high results for Lasso **0.996801** and Ransac **0.997508**.
+
+The decision on the final choice of the model must always be preceded by visual analysis of monthly data and domain knowledge.
+
 * Mean monthly accuracy of monthly units sales prediction vs external units benchmark
 ![MeanMonthlyAccuracy.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/MeanMonthlyAccuracy.PNG)
 
