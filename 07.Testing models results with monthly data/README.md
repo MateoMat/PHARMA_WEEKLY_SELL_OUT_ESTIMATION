@@ -272,6 +272,6 @@ plt.title("Monthly prediction vs external monthly data",fontsize= 24)
 # ax.axis('equal')
 leg = ax.legend(prop={"size":16});
 ```
-![MonthlyPredictionVsExternalMonthlyData.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/MonthlyPredictionVsExternalMonthlyData.PNG )
+![MonthlyPredictionVsExternalMonthlyData.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/MonthlyPredictionVsExternalMonthlyData.png)
 
 
