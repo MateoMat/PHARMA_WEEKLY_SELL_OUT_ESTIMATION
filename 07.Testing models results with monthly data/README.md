@@ -88,3 +88,145 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 ```
 
+```python
+# creating Elastic Net model and appending weekly predictions to internal weekly data
+ElasticNetModel = GridSearchCV(make_pipeline(PolynomialFeatures(degree=2), ElasticNet(alpha=1, tol=0.1)),
+                    param_grid={'polynomialfeatures__degree': [1, 2, 3, 4, 5, 6],
+                    'elasticnet__alpha': [22000]},
+                    cv=kfold,
+                    refit=True,
+                    n_jobs=-1)
+ElasticNetModel.fit(X_train, y_train)
+
+weekly_data = []
+
+for idx, row in WeekToMonth.iterrows():
+    weekly_data.append([row.SELL_OUT_UNITS_S4U])
+
+results =[]
+
+for i in weekly_data:
+    results.append(ElasticNetModel.predict([[i[0]]]))
+
+ElasticNetModel_Predict = pd.Series([])
+
+for idx,i in enumerate(results):
+    ElasticNetModel_Predict[idx] = int(i)
+    
+WeekToMonth.insert(3,'ElasticNetModel_Predict',ElasticNetModel_Predict)
+```
+
+```python
+# creating Lasso model and appending weekly predictions to internal weekly data
+LassoModel = GridSearchCV(make_pipeline(PolynomialFeatures(degree=2), Lasso(alpha=1, tol=0.1)),
+                    param_grid={'polynomialfeatures__degree': [1,2,3,4,5],
+                    'lasso__alpha': [17000]},
+                    cv=kfold,
+                    refit=True,
+                    n_jobs=-1)
+LassoModel.fit(X_train, y_train)
+
+weekly_data = []
+
+for idx, row in WeekToMonth.iterrows():
+    weekly_data.append([row.SELL_OUT_UNITS_S4U])
+
+results =[]
+
+for i in weekly_data:
+    results.append(LassoModel.predict([[i[0]]]))
+
+LassoModel_Predict = pd.Series([])
+
+for idx,i in enumerate(results):
+    LassoModel_Predict[idx] = int(i)
+    
+WeekToMonth.insert(4,'LassoModel_Predict',LassoModel_Predict)
+
+```
+
+```python
+# creating linear model and appending weekly predictions to internal weekly data
+linearModel_ = GridSearchCV(make_pipeline(PolynomialFeatures(degree=2), linear_model.LinearRegression()),
+                    param_grid={'polynomialfeatures__degree': [12]},
+                    cv=kfold,
+                    refit=True,
+                    n_jobs=-1)
+linearModel_.fit(X_train, y_train)
+
+weekly_data = []
+
+for idx, row in WeekToMonth.iterrows():
+    weekly_data.append([row.SELL_OUT_UNITS_S4U])
+
+results =[]
+
+for i in weekly_data:
+    results.append(linearModel_.predict([[i[0]]]))
+
+LinearModel_Predict = pd.Series([])
+
+for idx,i in enumerate(results):
+    LinearModel_Predict[idx] = int(i)
+    
+WeekToMonth.insert(5,'LinearModel_Predict',LinearModel_Predict)
+```
+
+```python
+# creating SVR model and appending weekly predictions to internal weekly data
+SVRModel = GridSearchCV(SVR(kernel='rbf'),
+                   param_grid={"C": [1000000],
+                               "gamma": [0.001,0.0001,0.00001,0.00000011]},
+                    cv=kfold,
+                    refit=True,
+                    n_jobs=-1)
+SVRModel.fit(X_train, y_train)
+
+weekly_data = []
+
+for idx, row in WeekToMonth.iterrows():
+    weekly_data.append([row.SELL_OUT_UNITS_S4U])
+
+results =[]
+
+for i in weekly_data:
+    results.append(SVRModel.predict([[i[0]]]))
+
+SVRModel_Predict = pd.Series([])
+
+for idx,i in enumerate(results):
+    SVRModel_Predict[idx] = int(i)
+    
+WeekToMonth.insert(6,'SVRModel_Predict',SVRModel_Predict)
+```
+
+```python
+# creating Ransac model and appending weekly predictions to internal weekly data
+RansacModel = GridSearchCV(RANSACRegressor(random_state=0),
+                  param_grid={
+                   'min_samples': [5]},
+                    cv=kfold,
+                    refit=True,
+                    n_jobs=-1)
+RansacModel.fit(X_train, y_train)
+
+weekly_data = []
+
+for idx, row in WeekToMonth.iterrows():
+    weekly_data.append([row.SELL_OUT_UNITS_S4U])
+
+results =[]
+
+for i in weekly_data:
+    results.append(RansacModel.predict([[i[0]]]))
+
+RansacModel_Predict = pd.Series([])
+
+for idx,i in enumerate(results):
+    RansacModel_Predict[idx] = int(i)
+    
+WeekToMonth.insert(7,'RansacModel_Predict',RansacModel_Predict)
+```
+
+
+
