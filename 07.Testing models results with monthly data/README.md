@@ -234,13 +234,13 @@ MONTHLY_MODEL_COMPARISON = WeekToMonth.groupby("MONTH",as_index=False).sum()
 MONTHLY_MODEL_COMPARISON.describe()
 
 ```
-![ModelData.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/MonthlyModelComparison.PNG )
+![MonthlyModelComparison.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/MonthlyModelComparison.PNG )
 
 ```python
 # Removing product column from external data
 EXTERNAL_MONTHLY_DATA.drop('PRODUCT',axis=1,inplace=True)
 
-# changing month data type
+# changing month column data type
 EXTERNAL_MONTHLY_DATA[["MONTH"]] = EXTERNAL_MONTHLY_DATA[["MONTH"]].apply(pd.to_datetime)
 
 # merging internal aggregated data to external monthly data
@@ -248,5 +248,30 @@ COMPARISON_DATA=MONTHLY_MODEL_COMPARISON.merge(EXTERNAL_MONTHLY_DATA,left_on='MO
 COMPARISON_DATA.describe()
 
 ```
-![ModelData.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/ComparisonDataDescribe.PNG )
+![ComparisonDataDescribe.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/ComparisonDataDescribe.PNG )
+
+```python
+%matplotlib inline
+import numpy as np
+
+x = COMPARISON_DATA[['MONTH']]
+from matplotlib.pyplot import figure
+# plt.figure(num=None, figsize=(10, 12), dpi=200, facecolor='w', edgecolor='k')
+
+fig, ax = plt.subplots()
+ax.plot(x, COMPARISON_DATA[['ElasticNetModel_Predict']], ':b', label='ElasticNet',linewidth=4)
+ax.plot(x, COMPARISON_DATA[['LinearModel_Predict']], ':y', label='Linear',linewidth=3)
+ax.plot(x, COMPARISON_DATA[['SVRModel_Predict']], ':c', label='SVR',linewidth=3)
+ax.plot(x, COMPARISON_DATA[['LassoModel_Predict']], ':g', label='Lasso',linewidth=3)
+ax.plot(x, COMPARISON_DATA[['RansacModel_Predict']], ':m', label='Ransac',linewidth=3)
+ax.plot(x, COMPARISON_DATA[['SELL_OUT_UNITS_IMS']], '--g', label='External Data',linewidth=3)
+
+fig.set_size_inches(15, 8, forward=True)
+plt.title("Monthly prediction vs external monthly data",fontsize= 24)
+# figure(figsize=(1,1))
+# ax.axis('equal')
+leg = ax.legend(prop={"size":16});
+```
+![MonthlyPredictionVsExternalMonthlyData.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/MonthlyPredictionVsExternalMonthlyData.PNG )
+
 
