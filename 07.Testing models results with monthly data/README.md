@@ -274,4 +274,12 @@ leg = ax.legend(prop={"size":16});
 ```
 ![MonthlyPredictionVsExternalMonthlyData.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/MonthlyPredictionVsExternalMonthlyData.png)
 
+```python
+dd = COMPARISON_DATA
+dd.drop('MONTH', axis=1,inplace=True)
+PercentageOfMonthlyDataAccuracy = dd.div(dd['SELL_OUT_UNITS_IMS'],axis=0)
+PercentageOfMonthlyDataAccuracy.round(3)*100
+```
+![PercentageOfMonthlyDataAccuracy.PNG](https://github.com/MateoMat/PHARMA_WEEKLY_SELL_OUT_ESTIMATION/blob/master/07.Testing%20models%20results%20with%20monthly%20data/img/PercentageOfMonthlyDataAccuracy.PNG)
+
 
