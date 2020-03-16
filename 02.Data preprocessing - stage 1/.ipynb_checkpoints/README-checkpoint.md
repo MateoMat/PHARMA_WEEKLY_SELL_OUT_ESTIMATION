@@ -1,7 +1,7 @@
 # 02.Data preprocessing - stage 1
 
 ### 0.Cleaning product dimension
-Internal data comes from 1938 customers. Each of them has an independent transaction system - this means that product names and identifiers will never be unique and in addition it changes over time. The most labor-intensive process before starting the analysis is to create a product dimension that will 100% download data for a specific product - taking into account the correct ID, names and changes over time for each.
+Internal data comes from 1951 customers. Each of them has an independent transaction system - this means that product names and identifiers will never be unique and in addition it changes over time. The most labor-intensive process before starting the analysis is to create a product dimension that will 100% download data for a specific product - taking into account the correct ID, names and changes over time for each.
 
 :white_check_mark: After completing the above steps, a table was created **dim.PRODUCTS**
     
