@@ -1,4 +1,4 @@
-# PHARMA_WEEKLY_SELL_OUT_ESTIMATION
+# Pharma weekly sell-out estimation
 
 
 ## Overview
